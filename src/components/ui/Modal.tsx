@@ -61,13 +61,14 @@ export function Modal({ open, onClose, title, children, describedById }: ModalPr
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-end justify-center sm:items-center"
+      className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 backdrop-blur-sm sm:items-center sm:p-4"
       role="presentation"
-      onMouseDown={(e) => {
+      onClick={(e) => {
+        // Clicking the dim area (the container itself) closes; clicks that land
+        // on the panel or its children do not.
         if (e.target === e.currentTarget) onClose();
       }}
     >
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" aria-hidden="true" />
       <div
         ref={panelRef}
         role="dialog"
