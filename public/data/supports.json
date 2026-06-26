@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chrom__olivia",
+    "members": ["chrom", "olivia"],
+    "ranks": {
+      "C": "Chrom stumbles onto Olivia rehearsing her dance alone, far from the camp where no one can watch. She is mortified to be seen, insisting she could never perform in front of others, while Chrom — genuinely struck by what little he glimpsed — gently tries to convince her she has nothing to be ashamed of.",
+      "B": "Chrom returns to the idea that Olivia should dance for the army, not as a spectacle but as a way to lift exhausted, frightened soldiers between battles. The suggestion terrifies her, yet the fact that he believes she can do it — that he sees her stage fright as something worth helping her past — lands more deeply than the request itself.",
+      "A": "Olivia finally dances before the troops, and the effect on the camp's morale is immediate and real. Shaken but glowing afterward, she realizes she could only do it because Chrom kept quietly insisting she could, and she begins to understand how much his steady faith in her has come to mean.",
+      "S": "Chrom admits that what he felt was never just a mentor's encouragement, and for once Olivia does not flee from the moment. She lets herself be seen — fully, without the performance — and accepts him, the two promising to face whatever comes as partners."
+    }
+  },
+  {
+    "id": "chrom__sumia",
+    "members": ["chrom", "sumia"],
+    "ranks": {
+      "C": "Sumia trips her way through an attempt to bring Chrom his report, scattering everything, and he helps her gather it without a word of reproach. Her clumsiness embarrasses her badly; his easy patience only deepens the quiet feelings she has carried for him.",
+      "B": "Chrom finds Sumia plucking petals to tell a fortune, and notices that the question she keeps asking the flowers is always, somehow, about him. She covers it poorly, but the moment makes plain how long she has watched over him from a respectful distance.",
+      "A": "As Sumia's confidence grows under Chrom's reliance on her, the two settle into an easy partnership in the field. He has come to depend on her judgement as much as her lance, and she no longer apologizes for simply being near him.",
+      "S": "Chrom recognizes that the steadiness Sumia brings him has become something he cannot do without, and he tells her so plainly. Her years of quiet hoping finally meet his words, and she accepts him through happy tears."
+    }
+  },
+  {
+    "id": "chrom__sully",
+    "members": ["chrom", "sully"],
+    "ranks": {
+      "C": "Chrom and Sully fall into training together, trading blows and blunt critiques as equals rather than prince and soldier. Neither stands on ceremony, and the easy honesty between them is obvious from the first exchange.",
+      "B": "Sully bristles at any hint of being treated as a lady rather than a knight, and Chrom — to his credit — never makes that mistake. Their respect is built entirely on what the other can do in a fight, and it is plainly mutual.",
+      "A": "After fighting side by side through hard battles, the two have a trust that needs few words. Sully would guard Chrom's back without being asked, and he knows it; the camaraderie has quietly become something closer.",
+      "S": "Chrom puts into words the feeling that grew out of all that shared grit, half-expecting Sully to wave it off. Instead she meets him just as directly, and the proposal is as plain and unsentimental as everything else between them."
+    }
+  },
+  {
+    "id": "chrom__maribelle",
+    "members": ["chrom", "maribelle"],
+    "ranks": {
+      "C": "Maribelle takes it upon herself to correct Chrom's casual manners, appalled that a prince should carry himself so informally. He weathers the lectures with good humor, and beneath her exasperation is clearly genuine concern for how the royal house is seen.",
+      "B": "Their long acquaintance shows as Maribelle scolds and frets over Chrom much as she does over Lissa. The propriety she demands turns out to be a kind of care, and Chrom begins to see how much of her sharpness is protectiveness in disguise.",
+      "A": "Maribelle's devotion to the royal family is revealed to be deeply personal where Chrom is concerned, not merely a noble's duty. The refined distance she keeps starts to look like a guard over feelings she has not admitted.",
+      "S": "Chrom sees past the manners to what Maribelle has been protecting, and tells her she need not stand on ceremony with him. She allows herself, for once, to be unguarded, and accepts him with all her usual poise and none of its distance."
+    }
+  },
+  {
+    "id": "chrom__robin_f",
+    "members": ["chrom", "robin_f"],
+    "ranks": {
+      "C": "Chrom and his tactician pore over plans together, the prince leaning on Robin's strategy as heavily as she leans on his resolve. The working trust between them is already remarkable, the foundation for everything that follows.",
+      "B": "Robin's unease about her unknown past surfaces, and Chrom answers it without hesitation — what she has done with the Shepherds matters to him far more than where she came from. His certainty steadies her where her own memory cannot.",
+      "A": "The two have become so attuned that they finish each other's plans and cover each other's blind spots without discussion. It is a partnership of equals, and the line between strategist-and-lord and something more personal has all but disappeared.",
+      "S": "What was an unshakable partnership is finally named as love, a moment the story gives unusual weight. Chrom asks Robin to stand beside him not just in battle but for good, and she — who once doubted she belonged anywhere — accepts."
+    }
+  }
+]

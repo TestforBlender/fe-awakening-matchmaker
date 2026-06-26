@@ -1,0 +1,88 @@
+[
+  {
+    "id": "lucina",
+    "name": "Lucina",
+    "epithet": "Lord",
+    "gender": "female",
+    "generation": 2,
+    "source": "base",
+    "defaultClass": "Lord",
+    "availableClasses": [
+      "Lord",
+      "Great Lord",
+      "Cavalier",
+      "Paladin",
+      "Great Knight",
+      "Archer",
+      "Sniper",
+      "Bow Knight"
+    ],
+    "personality": "A traveller from a ruined future who returns to change it, carrying her father's idealism beneath a soldier's discipline. Earnest, dutiful, and fiercely protective of those she loves.",
+    "recruitment": "Joins automatically over the course of the main story (around Chapter 13).",
+    "marriageableWith": [
+      "owain",
+      "inigo",
+      "brady",
+      "gerome",
+      "yarne",
+      "laurent",
+      "morgan_m"
+    ],
+    "tags": [
+      "royalty",
+      "lord",
+      "story-critical",
+      "melee"
+    ],
+    "notableSkills": [
+      "Aether",
+      "Charm",
+      "Rightful King (learnable as Great Lord)"
+    ],
+    "fixedParentId": "chrom",
+    "inheritanceNotes": "Always Chrom's daughter, so she always inherits Aether from him and keeps the Lord/Great Lord line. Her mother determines her second class set and any mother-side skill (for example, a Galeforce-capable mother can pass Galeforce as the last-equipped skill). Verify exact skill pass-down against the chosen mother."
+  },
+  {
+    "id": "inigo",
+    "name": "Inigo",
+    "epithet": "Mercenary",
+    "gender": "male",
+    "generation": 2,
+    "source": "base",
+    "defaultClass": "Mercenary",
+    "availableClasses": [
+      "Mercenary",
+      "Hero",
+      "Bow Knight",
+      "Myrmidon",
+      "Swordmaster",
+      "Assassin",
+      "Barbarian",
+      "Berserker",
+      "Warrior"
+    ],
+    "personality": "Olivia's son: an incurable flirt who hides his mother's shyness and a deep fear of loss behind forced bravado and a ready smile. Braver than he lets on.",
+    "recruitment": "Recruited in his Paralogue, available once Olivia has married and borne a son.",
+    "marriageableWith": [
+      "lucina",
+      "cynthia",
+      "severa",
+      "kjelle",
+      "noire",
+      "nah",
+      "morgan_f"
+    ],
+    "tags": [
+      "mercenary",
+      "melee",
+      "swordsman"
+    ],
+    "notableSkills": [
+      "Armsthrift",
+      "Patience",
+      "Galeforce (if inherited from Olivia)"
+    ],
+    "fixedParentId": "olivia",
+    "inheritanceNotes": "Always Olivia's son; his father sets his second class set and best inherited skills. Because Olivia can reclass into Dark Flier and learn Galeforce, she can pass Galeforce to Inigo as her last-equipped skill — a popular, strong setup. With Chrom as father, Inigo also gains the Cavalier/Archer lines (the Lord line is never inherited)."
+  }
+]

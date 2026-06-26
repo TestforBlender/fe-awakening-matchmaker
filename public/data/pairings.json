@@ -1,0 +1,42 @@
+[
+  {
+    "id": "chrom__olivia",
+    "members": ["chrom", "olivia"],
+    "relationshipSummary": "The prince of Ylisse and a shy travelling dancer. Chrom's open warmth slowly coaxes Olivia out of her shell, while her quiet steadiness gives him something gentler to fight for.",
+    "personalityDynamic": "Earnest extrovert meets bashful introvert. He pursues plainly and patiently; she retreats, then commits completely once she trusts him. A gentle slow-burn rather than a clash.",
+    "gameplayNotes": "A Dancer married into the main lord line. Olivia's Dance hands Chrom an extra action on key turns, and the couple produces both Lucina and Inigo — Lucina with guaranteed Aether, and an Inigo who can inherit Galeforce if Olivia learns it as a Dark Flier.",
+    "supportId": "chrom__olivia"
+  },
+  {
+    "id": "chrom__sumia",
+    "members": ["chrom", "sumia"],
+    "relationshipSummary": "Chrom and the clumsy, devoted pegasus knight who has quietly admired him for years. Her flower-fortunes keep pointing back to him, and he comes to rely on her more than he expected.",
+    "personalityDynamic": "Confident leader and anxious admirer. Sumia's nerves settle as Chrom takes her seriously; his certainty and her devotion meet in the middle.",
+    "gameplayNotes": "A flier paired with the lord line. The couple yields Lucina (with Aether) plus Cynthia, and Sumia's Galeforce access makes her a strong skill source for either child.",
+    "supportId": "chrom__sumia"
+  },
+  {
+    "id": "chrom__sully",
+    "members": ["chrom", "sully"],
+    "relationshipSummary": "Two soldiers first, sweethearts second. Chrom and Sully bond over training and the shared grind of command, and their respect quietly turns into something more.",
+    "personalityDynamic": "Blunt warrior meets earnest captain. Neither has patience for ceremony, so the romance is plain-spoken and built entirely on mutual regard.",
+    "gameplayNotes": "Pairs a frontline cavalier with the lord line, producing Lucina (with Aether) and Kjelle. Sully passes strong physical class options and defensive skills down the line.",
+    "supportId": "chrom__sully"
+  },
+  {
+    "id": "chrom__maribelle",
+    "members": ["chrom", "maribelle"],
+    "relationshipSummary": "The informal prince and the impeccably proper noblewoman. Maribelle's fierce loyalty to the royal family — and to Lissa in particular — turns out to run toward Chrom too.",
+    "personalityDynamic": "Refined and exacting versus easygoing and direct. She lectures, he disarms; under the friction is real warmth and a shared sense of duty.",
+    "gameplayNotes": "Brings a mounted healer into the lord line, producing Lucina (with Aether) and Brady. Maribelle's magic and support skills round out a daughter who would otherwise be purely physical.",
+    "supportId": "chrom__maribelle"
+  },
+  {
+    "id": "chrom__robin_f",
+    "members": ["chrom", "robin_f"],
+    "relationshipSummary": "Lord and tactician, partners in every battle before they are partners in anything else. Their trust is total by the time either admits it has become love — a pairing the story leans on heavily.",
+    "personalityDynamic": "Two complementary minds: his conviction and her strategy. She doubts her own past; he never doubts her. The bond is equal parts professional and personal.",
+    "gameplayNotes": "The Avatar's enormous class and skill flexibility makes this the powerhouse pairing — Lucina (with Aether) and Morgan both benefit, and because Robin can pass almost any skill, both children can be tuned freely. Note that marrying the female Avatar to Chrom makes Lucina and Morgan siblings.",
+    "supportId": "chrom__robin_f"
+  }
+]

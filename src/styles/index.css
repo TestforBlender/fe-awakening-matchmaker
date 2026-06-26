@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Color tokens as raw "R G B" triples so Tailwind's <alpha-value> works.
+ * Light theme (parchment) is the default; .dark flips to the navy theme.
+ */
+@layer base {
+  :root {
+    --fe-navy: 26 34 56;
+    --fe-navy-deep: 20 26 46;
+    --fe-navy-panel: 33 43 71;
+    --fe-parchment: 244 236 216;
+    --fe-parchment-dim: 230 220 197;
+    --fe-gold: 201 160 78;
+    --fe-gold-bright: 226 192 116;
+    --fe-gold-dim: 150 118 56;
+    --fe-crimson: 161 45 45;
+    --fe-rose: 200 96 138;
+
+    /* Readable text variants of the accents (AA on the active surface). */
+    --fe-gold-text: 122 92 36;
+    --fe-rose-text: 166 34 86;
+
+    /* Semantic tokens — LIGHT theme */
+    --fe-ink: 38 33 24;
+    --fe-ink-soft: 92 82 64;
+    --fe-edge: 210 196 167;
+    --fe-surface: 244 236 216;
+    --fe-surface-raised: 252 247 235;
+
+    color-scheme: light;
+  }
+
+  .dark {
+    /* Semantic tokens — DARK theme */
+    --fe-ink: 238 233 220;
+    --fe-ink-soft: 176 184 206;
+    --fe-edge: 60 72 104;
+    --fe-surface: 20 26 46;
+    --fe-surface-raised: 33 43 71;
+
+    /* On navy, the bright accents are the readable ones. */
+    --fe-gold-text: 226 192 116;
+    --fe-rose-text: 200 96 138;
+
+    color-scheme: dark;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-surface text-ink font-body antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Visible focus for keyboard navigation — never remove the outline silently. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2;
+    --tw-ring-offset-color: rgb(var(--fe-surface));
+  }
+
+  h1, h2, h3 {
+    @apply font-display;
+  }
+}
+
+/* Respect users who ask for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

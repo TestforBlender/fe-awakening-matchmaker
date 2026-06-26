@@ -1,0 +1,239 @@
+[
+  {
+    "id": "chrom",
+    "name": "Chrom",
+    "epithet": "Lord",
+    "gender": "male",
+    "generation": 1,
+    "source": "base",
+    "defaultClass": "Lord",
+    "availableClasses": [
+      "Lord",
+      "Great Lord",
+      "Cavalier",
+      "Paladin",
+      "Great Knight",
+      "Archer",
+      "Sniper",
+      "Bow Knight"
+    ],
+    "personality": "Ylisse's earnest, hot-blooded prince and captain of the Shepherds. He leads from the front and trusts his comrades to a fault, prizing bonds over protocol.",
+    "recruitment": "Available from the Prologue as the main lord.",
+    "marriageableWith": [
+      "sumia",
+      "sully",
+      "maribelle",
+      "olivia",
+      "robin_f"
+    ],
+    "tags": [
+      "royalty",
+      "lord",
+      "story-critical",
+      "melee"
+    ],
+    "notableSkills": [
+      "Dual Strike+",
+      "Charm",
+      "Aether",
+      "Rightful King"
+    ]
+  },
+  {
+    "id": "sumia",
+    "name": "Sumia",
+    "epithet": "Pegasus Knight",
+    "gender": "female",
+    "generation": 1,
+    "source": "base",
+    "defaultClass": "Pegasus Knight",
+    "availableClasses": [
+      "Pegasus Knight",
+      "Falcon Knight",
+      "Dark Flier",
+      "Knight",
+      "General",
+      "Great Knight",
+      "Cleric",
+      "Sage",
+      "War Cleric"
+    ],
+    "personality": "A clumsy but warm-hearted pegasus knight who tells fortunes by plucking flower petals. Devoted and quietly brave once she finds her footing.",
+    "recruitment": "Joins early in the main story among the first Shepherds.",
+    "marriageableWith": [
+      "chrom"
+    ],
+    "tags": [
+      "flier",
+      "mounted",
+      "pegasus"
+    ],
+    "notableSkills": [
+      "Galeforce",
+      "Relief",
+      "Rally Movement"
+    ]
+  },
+  {
+    "id": "sully",
+    "name": "Sully",
+    "epithet": "Cavalier",
+    "gender": "female",
+    "generation": 1,
+    "source": "base",
+    "defaultClass": "Cavalier",
+    "availableClasses": [
+      "Cavalier",
+      "Paladin",
+      "Great Knight",
+      "Myrmidon",
+      "Swordmaster",
+      "Assassin",
+      "Wyvern Rider",
+      "Wyvern Lord",
+      "Griffon Rider"
+    ],
+    "personality": "A blunt, fierce cavalier who measures everyone by their grit on the battlefield. She has no patience for flattery and every respect for hard work.",
+    "recruitment": "Joins early in the main story as a founding Shepherd.",
+    "marriageableWith": [
+      "chrom"
+    ],
+    "tags": [
+      "mounted",
+      "cavalry",
+      "melee"
+    ],
+    "notableSkills": [
+      "Aegis",
+      "Luna",
+      "Discipline"
+    ]
+  },
+  {
+    "id": "maribelle",
+    "name": "Maribelle",
+    "epithet": "Troubadour",
+    "gender": "female",
+    "generation": 1,
+    "source": "base",
+    "defaultClass": "Troubadour",
+    "availableClasses": [
+      "Troubadour",
+      "Valkyrie",
+      "War Cleric",
+      "Pegasus Knight",
+      "Falcon Knight",
+      "Dark Flier",
+      "Mage",
+      "Sage",
+      "Dark Knight"
+    ],
+    "personality": "A refined noblewoman with a sharp tongue and a fierce loyalty to those she loves, especially Lissa. Beneath the haughty manners is a genuinely caring healer.",
+    "recruitment": "Recruited during an early-story rescue.",
+    "marriageableWith": [
+      "chrom"
+    ],
+    "tags": [
+      "mounted",
+      "healer",
+      "magic"
+    ],
+    "notableSkills": [
+      "Dual Support+",
+      "Rally Resistance",
+      "Demoiselle"
+    ]
+  },
+  {
+    "id": "olivia",
+    "name": "Olivia",
+    "epithet": "Dancer",
+    "gender": "female",
+    "generation": 1,
+    "source": "base",
+    "defaultClass": "Dancer",
+    "availableClasses": [
+      "Dancer",
+      "Myrmidon",
+      "Swordmaster",
+      "Assassin",
+      "Pegasus Knight",
+      "Falcon Knight",
+      "Dark Flier"
+    ],
+    "personality": "A travelling dancer, painfully shy off the stage but radiant on it. Her dance refreshes an ally so they can act again, making her a force multiplier.",
+    "recruitment": "Recruited in Chapter 11.",
+    "marriageableWith": [
+      "chrom"
+    ],
+    "tags": [
+      "dancer",
+      "support-unit",
+      "melee"
+    ],
+    "notableSkills": [
+      "Galeforce",
+      "Special Dance",
+      "Lucky Seven"
+    ]
+  },
+  {
+    "id": "robin_f",
+    "name": "Robin",
+    "epithet": "Tactician",
+    "gender": "female",
+    "generation": 1,
+    "source": "base",
+    "defaultClass": "Tactician",
+    "availableClasses": [
+      "Tactician",
+      "Grandmaster",
+      "Cavalier",
+      "Paladin",
+      "Great Knight",
+      "Knight",
+      "General",
+      "Myrmidon",
+      "Swordmaster",
+      "Assassin",
+      "Mercenary",
+      "Hero",
+      "Bow Knight",
+      "Archer",
+      "Sniper",
+      "Thief",
+      "Trickster",
+      "Pegasus Knight",
+      "Falcon Knight",
+      "Dark Flier",
+      "Wyvern Rider",
+      "Wyvern Lord",
+      "Griffon Rider",
+      "Mage",
+      "Sage",
+      "Dark Knight",
+      "Dark Mage",
+      "Sorcerer",
+      "Cleric",
+      "War Cleric",
+      "Troubadour",
+      "Valkyrie"
+    ],
+    "personality": "The amnesiac tactician found by Chrom in a field. Brilliant, adaptable, and the army's strategic backbone — the female Avatar is modelled here as a distinct entry from her male counterpart.",
+    "recruitment": "Available from the Prologue as the player Avatar.",
+    "marriageableWith": [
+      "chrom"
+    ],
+    "tags": [
+      "avatar",
+      "tactician",
+      "magic",
+      "flexible"
+    ],
+    "notableSkills": [
+      "Veteran",
+      "Ignis",
+      "Galeforce (via Dark Flier)"
+    ]
+  }
+]
