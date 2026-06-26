@@ -24,7 +24,7 @@ export default defineConfig({
       // Portraits/sprites are runtime-cached (cache-first) once visited.
       includeAssets: ['favicon.svg', 'assets/icons/*.png'],
       manifest: {
-        name: 'Fire Emblem Awakening Matchmaker',
+        name: 'FE Awakening Matchmaker',
         short_name: 'FE Matchmaker',
         description:
           'Pair Fire Emblem Awakening characters and explore marriages, supports, children, and builds.',

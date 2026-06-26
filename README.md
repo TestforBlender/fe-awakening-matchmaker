@@ -64,6 +64,8 @@ In your repo settings, set **Pages → Build and deployment → Source** to
 Built in reviewable steps. Done so far: scaffold (toolchain, palette, dark
 mode, PWA), the pure game logic (compatibility, child derivation, search), the
 verified Chrom-line data slice, the asset/placeholder system, the character
-gallery (search · filters · detail), and the Match Zone (drag · tap · keyboard ·
-heart/X feedback). Remaining: the result panel, the family tree + child detail,
+gallery (search · filters · detail), the Match Zone (drag · tap · keyboard ·
+heart/X feedback), the inline result panel (relationship · support accordion ·
+gameplay notes), the family tree + contextual child detail, and a verified
+offline-capable PWA deployed to GitHub Pages. Remaining: full-roster data.
 and full-roster data.
