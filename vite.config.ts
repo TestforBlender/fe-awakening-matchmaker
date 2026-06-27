@@ -53,8 +53,13 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // Precache the shell + JSON data so the app works fully offline.
-        globPatterns: ['**/*.{js,css,html,svg,woff2}', 'data/*.json'],
+        // Precache the shell + JSON data + all art so the app works fully
+        // offline, including characters you haven't opened yet.
+        globPatterns: ['**/*.{js,css,html,svg,woff2,png,webp,jpg,jpeg}', 'data/*.json'],
+        // Icons are already injected into the precache via the manifest; keep
+        // the glob from adding a second copy of each.
+        globIgnores: ['**/assets/icons/**'],
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         runtimeCaching: [
           {
             // Portraits and sprites: cache-first, capped so storage stays sane.

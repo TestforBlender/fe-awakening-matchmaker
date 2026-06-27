@@ -52,6 +52,12 @@ export interface Character {
    *  Source of truth for compatibility. Verified against Serenes Forest. */
   marriageableWith: string[];
 
+  /** Ids of every unit this character can build ANY support with (reach at
+   *  least A), including same-gender partners that can't marry. Optional;
+   *  defaults to `marriageableWith` when absent. Used for A-rank "comrade"
+   *  bonds. (Parent/child and sibling bonds are computed, not listed here.) */
+  supportsWith?: string[];
+
   /** Freeform facets for filtering/search: "royalty", "flier", "mounted"… */
   tags: string[];
 
@@ -135,4 +141,34 @@ export interface RosterIndex {
   childByParentId: Map<string, string>;
   /** child id → fixed parent id (reverse of the above). */
   parentByChildId: Map<string, string>;
+}
+
+// ---- Relationship analysis (A-rank bonds + S-rank marriage) --------------
+
+export type RelationshipKind = 'marriage' | 'bond' | 'none';
+export type BondReason = 'parent-child' | 'siblings' | 'same-gender';
+
+/** A relationship that only holds in specific parent combinations (e.g. two
+ *  children are siblings only when their fixed parents marry each other). */
+export interface RelationshipCondition {
+  kind: 'siblings' | 'parent-child';
+  /** The two units whose marriage triggers this relationship. */
+  ifMarry: [string, string];
+  text: string;
+}
+
+/** Rich verdict for a pair: marriage (S), a capped bond (A), or no support. */
+export interface RelationshipResult {
+  aId: string;
+  bId: string;
+  kind: RelationshipKind;
+  /** Highest rank reachable: S (marry), A (bond), or null (no support). */
+  maxRank: 'S' | 'A' | null;
+  /** Why a bond caps at A. */
+  bondReason?: BondReason;
+  /** Short type label: "Father & daughter", "Sisters", "Comrades", "Can marry". */
+  label: string;
+  explanation: string;
+  /** Relationships that hold only in certain parent combinations. */
+  conditions: RelationshipCondition[];
 }

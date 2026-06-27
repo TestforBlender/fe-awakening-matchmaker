@@ -57,10 +57,10 @@ describe('real slice data: end-to-end pairing analysis', () => {
     expect(r.support?.ranks.C.length).toBeGreaterThan(20);
   });
 
-  it('Chrom + Sully → only Lucina appears (Kjelle not in the slice yet)', () => {
+  it('Chrom + Sully → both Lucina and Kjelle', () => {
     const r = analyzePairing('chrom', 'sully', roster, pairings, supports);
     expect(r.compatibility.compatible).toBe(true);
-    expect(r.childIds).toEqual(['lucina']);
+    expect(r.childIds.sort()).toEqual(['kjelle', 'lucina']);
   });
 
   it('Olivia + Sumia → incompatible, same-gender', () => {

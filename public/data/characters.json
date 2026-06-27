@@ -222,7 +222,9 @@
     "personality": "The amnesiac tactician found by Chrom in a field. Brilliant, adaptable, and the army's strategic backbone — the female Avatar is modelled here as a distinct entry from her male counterpart.",
     "recruitment": "Available from the Prologue as the player Avatar.",
     "marriageableWith": [
-      "chrom"
+      "chrom",
+      "inigo",
+      "brady"
     ],
     "tags": [
       "avatar",
